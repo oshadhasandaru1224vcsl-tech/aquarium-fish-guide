@@ -18,7 +18,7 @@ body{
     min-height:100vh;
 }
 
-/* Header */
+
 
 header{
     background:#020617;
@@ -67,7 +67,7 @@ header{
     color:#fff;
 }
 
-/* Hero */
+
 
 .hero{
     max-width:1200px;
@@ -135,7 +135,7 @@ header{
     animation:float 4s ease-in-out infinite;
 }
 
-/* Main Content */
+
 
 .container{
     max-width:1100px;
@@ -170,7 +170,7 @@ header{
     margin-bottom:15px;
 }
 
-/* Forms */
+
 
 form{
     display:flex;
@@ -195,8 +195,14 @@ button{
 
 /* Table */
 
+.table-container{
+    width:100%;
+    overflow-x:auto;
+}
+
 table{
     width:100%;
+    min-width:650px;
     margin-top:40px;
     border-collapse:collapse;
     background:#1e293b;
@@ -209,6 +215,7 @@ td{
     padding:12px;
     text-align:center;
     border-bottom:1px solid #334155;
+    white-space:nowrap;
 }
 
 th{
@@ -219,6 +226,7 @@ th{
 tr:hover{
     background:#334155;
 }
+
 
 /* About */
 

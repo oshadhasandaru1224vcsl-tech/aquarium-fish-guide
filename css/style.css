@@ -352,3 +352,53 @@ img{
     max-width:100%;
     height:auto;
 }
+
+
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    color:white;
+}
+
+
+
+@media (max-width:768px){
+
+.navbar{
+    flex-wrap:wrap;
+}
+
+.menu-toggle{
+    display:block;
+}
+
+.nav-links{
+
+    display:none;
+
+    width:100%;
+
+    flex-direction:column;
+
+    margin-top:15px;
+
+    background:#020617;
+
+}
+
+.nav-links a{
+
+    padding:15px;
+
+    border-top:1px solid #334155;
+
+}
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
+}
